@@ -1,75 +1,56 @@
-# Nome do App
+# Meu App Android
 
-Este projeto foi desenvolvido no Android Studio como parte de um estudo de desenvolvimento mobile.
-
-## Tecnologias utilizadas
-
-* Java/Kotlin
-* Android Studio
-* XML para interfaces
+Aplicativo desenvolvido no Android Studio com o objetivo de praticar desenvolvimento mobile.
 
 ---
 
-## Uso do Logcat
+## Logcat
 
-O Logcat é uma ferramenta do Android que permite visualizar mensagens do sistema e do aplicativo em tempo real. Ele é muito importante para identificar erros e acompanhar o funcionamento do app.
-
----
-
-## Tipos de Logs utilizados
-
-Durante o desenvolvimento, foram utilizados diferentes níveis de log:
-
-### Log.d (Debug)
-
-Utilizado para mensagens de depuração, ajudando a entender o fluxo do código.
-
-Exemplo:
-Log.d("MainActivity", "Botão clicado");
+O Logcat é uma ferramenta que mostra mensagens do sistema e do aplicativo em tempo real, sendo essencial para identificar erros e acompanhar o funcionamento do app.
 
 ---
 
-### Log.i (Info)
+## Log de Erro (Error)
 
-Mostra informações gerais sobre o funcionamento do app.
+![Erro](images/error.png)
 
-Exemplo:
-Log.i("Login", "Usuário logado com sucesso");
-
----
-
-### Log.w (Warning)
-
-Indica possíveis problemas que não impedem a execução.
-
-Exemplo:
-Log.w("API", "Resposta demorou mais que o esperado");
+Este log mostra um erro ocorrido durante a execução do aplicativo.
+Ele é importante para identificar falhas que podem impedir o funcionamento correto.
 
 ---
 
-### Log.e (Error)
+## Log de Informação (Info)
 
-Usado para mostrar erros que ocorreram no app.
+![Info](images/info.png)
 
-Exemplo:
-Log.e("Database", "Erro ao acessar o banco de dados");
-
----
-
-## Importância do Logcat
-
-* Ajuda a encontrar erros rapidamente
-* Permite acompanhar o comportamento do app
-* Facilita a manutenção e melhoria do código
+Esse tipo de log apresenta informações gerais sobre o funcionamento do aplicativo, como ações realizadas com sucesso.
 
 ---
 
-## Como visualizar
+## Log de Depuração (Debug)
 
-No Android Studio, o Logcat pode ser acessado na parte inferior da tela. Basta rodar o aplicativo e observar os logs em tempo real.
+![Debug](images/debug.png)
+
+Utilizado para acompanhar o fluxo do código durante o desenvolvimento, ajudando a entender o comportamento do app.
 
 ---
 
-## Autoria
+## Log de Aviso (Warning)
 
-Projeto desenvolvido por Mariana de Oliveira Rigueiro
+![Warning](images/warning.png)
+
+Indica possíveis problemas que não impedem o funcionamento, mas que podem causar erros no futuro.
+
+---
+
+## Execução do App
+
+![Execução](images/app.png)
+
+Nesta imagem é possível ver um trecho do código junto com a interface do aplicativo em funcionamento, demonstrando a execução prática do projeto.
+
+---
+
+## Desenvolvedora
+
+Projeto desenvolvido por Mariana Rigueiro.
